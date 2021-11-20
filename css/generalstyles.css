@@ -13,6 +13,15 @@ body {
     margin: 0;
     min-height: 100vh;
     text-align: center;
+}
+#backgr {
+    opacity: 0.7;
+    background-image: url("https://images.unsplash.com/photo-1452570053594-1b985d6ea890?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFycm90fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60");
+    background-position: center;
+    background-size: cover;
+}
+#backgr2 {
+    opacity: 0.7;
     background-color: var(--color-three);
 }
 h1 {
@@ -40,7 +49,7 @@ form {
     background-color: var(--color-one);
 }
 .imgUser {
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
 }
 #img {
@@ -48,10 +57,19 @@ form {
     max-height: 100%;
     max-width: 100%;
 }
+/* .imageUser #img {
+    transform: scaleX(1.5);
+} */
 .border, #submit {
     border: 1px solid var(--color-four);
     background-color: var(--color-two);
+    border-radius: 5px;
+}
+.border-bm {
+    border: 1px solid var(--color-four);
+    background-color: var(--color-two);
     position: relative;
+    border-radius: 5px;
 }
 #bm {
     position: absolute;
